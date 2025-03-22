@@ -1,0 +1,188 @@
+body, html
+{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header
+{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.banner{display: flex;justify-content: center;}
+.title
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25vw;
+  
+}
+.buttons
+{
+  display: flex;
+  gap: .5rem;
+}
+input[type="button"]
+{
+  height: 6vh;
+  width: 8vw;
+}
+input[value="SUBSCRIBE"]
+{
+  background-color: red;
+  color: white;
+  border: none;
+}
+input[value="SIGN IN"]
+{
+  background-color: white;
+  border: 1px solid rgb(219, 219, 219);
+}
+.searchBar
+{
+  border: none;
+}
+.logo
+{
+  height: 13vh;
+}
+.banner
+{
+  flex: 1;
+  display: flex;
+}
+.bannerImage
+{
+  height: 30vh;
+  width: 70vw;
+}
+hr
+{
+  width: 100%;
+  border: 1px solid rgb(219, 219, 219);
+}
+nav, .nav
+{
+  display: flex;
+}
+nav
+{
+  gap: 12vw;
+  width: 90vw;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav
+{
+  gap: 3vw;
+}
+.home, .hot
+{
+  color: red;
+}
+.topics
+{
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+.date, .topics
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: grey;
+}
+/* -----------------------section1 */
+.section1
+{
+  background-color: rgb(235, 235, 235);
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.subSec1
+{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  width: 30vw;
+  background-color: white;
+  height: 12vh;
+  border-radius: 5px;
+}
+.app
+{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.sec1Image
+{
+  width: 8vw;
+
+}
+.parent
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.section2
+{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 5vw;
+}
+.section21
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vh;
+
+}
+.overlay
+{
+  position: absolute;
+  bottom: 3vh;
+  color: white;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.rahul
+{
+  height: 40vh;
+}
+.inFocus
+{
+  background-color: red;
+  width: 5vw;
+  padding: 2px;
+}
+.shop
+{
+  height: 30vh;
+}
+.section22
+{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  
+}
+.para
+{
+  font-size: 13px;
+}
